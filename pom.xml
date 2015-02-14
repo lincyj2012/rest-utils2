@@ -26,7 +26,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sappenin.utils.rest</groupId>
 	<artifactId>rest-utils2</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<name>Sappenin REST Utils2</name>
 	<description>Utilities, Helpers, and base-classes for assisting in server-side REST API implementations written in Java.</description>
