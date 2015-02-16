@@ -16,9 +16,11 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.ToString;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import org.apache.commons.lang3.StringUtils;
+
 import com.fasterxml.jackson.annotation.JsonUnwrapped;
 import com.fasterxml.jackson.annotation.JsonValue;
+import com.google.common.base.Preconditions;
 
 /**
  * Copyright (C) 2014 Sappenin Inc. (developers@sappenin.com)
@@ -51,8 +53,9 @@ public class InternalId
 	 * 
 	 * @param internalId
 	 */
-	public InternalId( final String internalId)
+	public InternalId(final String internalId)
 	{
+		Preconditions.checkArgument(!StringUtils.isBlank(internalId), "Id may not be empty, blank, or null!");
 		this.internalId = internalId;
 	}
 
