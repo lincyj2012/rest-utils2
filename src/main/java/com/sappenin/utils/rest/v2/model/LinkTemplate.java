@@ -22,7 +22,7 @@ public class LinkTemplate
 	 *
 	 * @param hrefTemplate
 	 */
-	public LinkTemplate(@JsonProperty("href") final String hrefTemplate)
+	public LinkTemplate(@JsonProperty("hrefTemplate") final String hrefTemplate)
 	{
 		this.hrefTemplate = hrefTemplate;
 	}
