@@ -22,7 +22,7 @@ import com.sappenin.utils.rest.v2.model.Link;
 
 public class SampleModelTest
 {
-	private static final String SELF_MODEL_AS_JSON = "{\"meta\":{\"@self\":{\"href\":\"https://example.com/self\"},\"@children\":{\"href\":\"https://example.com/children\"}},\"additionalAttributes\":{},\"name\":\"testName\",\"creationDateTime\":\"2014-12-20T19:28:21Z\",\"id\":\"internalIdentifierTest\"}";
+	private static final String SELF_MODEL_AS_JSON = "{\"meta\":{\"@self\":{\"href\":\"https://example.com/self\"},\"@children\":{\"href\":\"https://example.com/children\"}},\"id\":\"internalIdentifierTest\",\"additionalAttributes\":{},\"name\":\"testName\",\"creationDateTime\":\"2014-12-20T19:28:21Z\"}";
 
 	private ObjectMapper objectMapper;
 
