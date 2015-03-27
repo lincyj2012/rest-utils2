@@ -36,7 +36,7 @@ import com.sappenin.utils.rest.v2.model.meta.Meta;
 @EqualsAndHashCode
 @ToString
 @JsonPropertyOrder({
-	"meta, id, additionalAttributes"
+	"meta", "id", "additionalAttributes"
 })
 public abstract class AbstractRestModel<M extends Meta> implements RestModel<M>
 {
